@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.barra {
+    padding: 15px;
+    background-color: rgb(248, 244, 0);
+}
+
+.img{
+    height: 100px;
+    width: 400px;
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+}
+
+.bar {
+    position: absolute;
+    top: 50px;
+    left: 82px;
+}
+
+.enlace{
+    position: absolute;
+    left: 1120px;
+    padding: 21px 21px;
+    margin: 20px;
+    color: #ffffff;
+    border-radius: 30px;
+    background-color: rgb(57, 63, 224);
+    cursor: pointer;
+}
+
+.enlace1{
+    position: absolute;
+    left: 1000px;
+    padding: 19px 15px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: rgb(57, 63, 224);
+    cursor: pointer;
+}
+
+.enlace:hover {
+    font-size: 15px;
+    transition: all 1.2s;
+    color: rgb(230, 221, 53);
+}
+
+.enlace1:hover {
+    font-size: 15px;
+    transition: all 1.2s;
+    color: rgb(232, 216, 31);
+}
+
+
+.buscador {
+    border-radius: 20px;
+    padding: 10px 40px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+
+}
+
+.buscador:hover {
+    font-size: 20px;
+    transition: all 2.2s;
+    
+}
+
+.container-1 {
+    background-color: rgb(78, 78, 236);
+    padding: 20px 150px;
+}
+
+.boton {
+    border-radius: 30px;
+    padding: 3px 25px;
+    border: 0;
+    background-color: #ffffff;
+    position: relative;
+    left: -100px;       
+    cursor: pointer;
+}
+
+.boton:hover {
+    font-size: 15px;
+    color: rgb(143, 143, 71);
+    transition: all 0.9s;
+}
+
+
+.boton-1 {
+    border-radius: 30px;
+    padding: 3px 25px;
+    border: 0;
+    background-color: #ffffff;
+    position: relative;
+    left: -50px;
+    cursor: pointer;
+}
+
+.boton-1:hover {
+    font-size: 15px;
+    color: rgb(143, 143, 71);
+    transition: all 0.9s;
+}
+
+.boton-2 {
+    border-radius: 30px;
+    padding: 3px 25px;
+    border: 0;
+    background-color: #ffffff;
+    position: relative;
+    left: -10px;
+    cursor: pointer;
+}
+
+.boton-2:hover {
+    font-size: 15px;
+    color: rgb(143, 143, 71);
+    transition: all 0.9s;
+}
+
+.boton-3 {
+    border-radius: 30px;
+    padding: 3px 25px;
+    border: 0;
+    background-color: #ffffff;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+}
+
+.boton-3:hover {
+    font-size: 15px;
+    color: rgb(143, 143, 71);
+    transition: all 0.9s;
+}
+
+
+.imgContainer img{
+    position: absolute;
+    top: 250px;
+    left: 240px;
+    height: 400px;
+    width: 800px;
+    cursor: pointer;
+    
+}
+
+.imgContainer-1 img{
+    position: absolute;
+    top: 680px;
+    left: 240px;
+    height: 100px;
+    width: 400px;
+    cursor: pointer;
+    
+}
+
+.imgContainer-2 img{
+    position: absolute;
+    top: 680px;
+    left: 680px;
+    height: 100px;
+    width: 360px;
+    cursor: pointer;
+    
+}
+
+h2 {
+    position: relative;
+    top: 700px;
+}
+
+#Line {
+    padding: 2px 630px;
+    position: absolute;
+    top: 920px;
+    background-color: rgb(77, 77, 92);
+}
+
+.text p, h3, a{
+    font-size: 15px;
+    color: rgb(58, 55, 55);
+}
+.text p{
+    position: absolute;
+    top: 900px;
+    left: 550px;
+}
+
+.text h3{
+    position: absolute;
+    top: 900px;
+    left: 650px;
+}
+
+.text a{
+    position: absolute;
+    top: 900px;
+    left: 750px;
+}
+
+.container-prices {
+    background-color: rgb(65, 65, 186);
+    padding: 130px;
+    margin: 50px;
+    position: relative;
+    top: 750px;
+}
+
+.imagen-1 img {
+    height: 130px;
+    width: 90px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    
+}
+
+.imagen-1 p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -15px;
+    left: 90px;
+    font-weight: bold;
+}
+
+.imagen-1 h4{
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    color: white;
+
+
+}
+
+.imagen-1 h4:hover{
+font-size: 25px;
+transition: all 1s;
+color: rgb(255, 251, 0);
+
+}
+
+.imagen-2 img{
+    height: 130px;
+    width: 90px;
+    position: absolute;
+    top: 110px;
+    left: 410px;
+}
+
+.imagen-2 p{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 130px;
+    left: 555px;    
+}
+
+
+.imagen-2 h3{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 160px;
+    left: 555px;    
+}
+
+
+.imagen-2 h3:hover{
+    font-size: 25px;
+    transition: all 1s;
+    color: rgb(255, 251, 0);
+}
+
+.imagen-3 img{
+    height: 130px;
+    width: 90px;
+    position: absolute;
+    top: 110px;
+    left: 710px;
+}
+
+.imagen-4 img{
+    height: 130px;
+    width: 90px;
+    position: absolute;
+    top: 110px;
+    left: 940px;
+}
+
+.imagen-3 p{
+    position: absolute;
+    top: 130px;
+    left: 830px;
+    color: white;
+    font-weight: bold;
+}
+
+.imagen-3 h3 {
+    position: absolute;
+    top: 160px;
+    left: 830px;
+    color: white;
+}
+
+.imagen-3 h3:hover {
+    font-size: 25px;
+    transition: all 1s;
+    color: rgb(255, 251, 0);
+}
+
+.imagen-4 p{
+    position: absolute;
+    top: 130px;
+    left: 1050px;
+    color: white;
+    font-weight: bold;
+}
+
+.imagen-4 h3 {
+    position: absolute;
+    top: 160px;
+    left: 1050px;
+    color: white;
+}
+
+.imagen-4 h3:hover {
+    font-size: 25px;
+    transition: all 1s;
+    color: rgb(255, 251, 0);
+}
